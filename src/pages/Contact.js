@@ -7,29 +7,29 @@ export default function Contact() {
       <div className="flex-grow text-sky-100 bg-slate-800 py-8 sm:py-10">
         <div id="projects" className="container mx-auto justify-center body-font">
           <div className="container mx-auto h-full lg:h-dvh px-5 p-6 text-center lg:px-40">
-            <div className="grid grid-rows-1 grid-cols-2 p-4 ">
+            <div className="grid grid-rows-1 grid-cols-2 sm:p-4 ">
               <div className="px-6 mt-4 lg:mt-0">
-                <h2 className="font-semibold tracking-widest text-base">
+                <h2 className="font-semibold tracking-widest text-xs sm:text-base">
                   ADDRESS
                 </h2>
-                <p className="p-2">
+                <p className="p-2 text-xs sm:text-base">
                   Malmö, Sweden
                 </p>
               </div>
-              <div className="px-6 mt-4 lg:mt-0">
-                <h2 className="font-semibold tracking-widest text-base">
+              <div className="px-6 mt-4 lg:mt-0 content-start">
+                <h2 className="font-semibold tracking-widest text-xs sm:text-base">
                   EMAIL
                 </h2>
-                <p className="p-2">
+                <p className="p-2 text-xs sm:text-base text-center">
                   palexanderbengtsson@gmail.com
                 </p>
               </div>
             </div>
             <div>
-              <h2 className="sm:text-xl text-base mt-5 p-4">
+              <h2 className="text-xl mt-5 p-4">
                 Map Location
               </h2>
-              <p className="p-5">
+              <p className="p-5 text-xs sm:text-base">
                 I can work from/to anywhere within +/- 5 timezones.
               </p>
             </div>

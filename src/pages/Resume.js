@@ -11,27 +11,26 @@ export default function Resume() {
               <h2 className="invisible">
                 Resume
               </h2>
-              <p className="text-base mx-auto w-[55%] p-8">
-                Thank you for reading my resume. I hope it will signal my level of discipline and aptitude for learning. I have worked every year of my life since 2014.
+              <p className="text-base mx-auto w-[85%] sm:w-[55%] p-2 md:p-8">
+                This is my resume. I hope it will show my level of discipline and aptitude for learning. I have worked every year of my life since 2014.
                 In 2020, I started my career path towards the software industry, and I have never looked back.
               </p>
             </div>
             <div className="grid grid-rows-4">
               <div>
-                <h3 className="p-4 mt-8 font-medium text-base sm:text-2xl">
+                <h3 className="p-4 mt-8 font-medium text-2xl">
                   Skills
                 </h3>
-                <p className="text-left text-xs sm:text-xl p-4">
+                <p className="text-left text-lg sm:text-2xl p-4">
                   ★★★: Java, JavaScript                        <br />
                   ★★☆: React, EJB 3.0, Tailwind CSS            <br />
                   ★☆☆: Azure, Git, TypeScript, C#, Bootstrap   <br />
-                  <br />
-                  <br />
+                  <br /><br />
                   Web & Data: JS, TS, HTML5, CSS3, SQL Server
                 </p>
               </div>
               <div>
-                <p className="font-medium text-base sm:text-2xl">
+                <p className="font-medium text-2xl">
                   Experiences
                 </p>
                 <p className="p-6 font-medium text-base sm:text-2xl mt-6">
@@ -77,7 +76,7 @@ export default function Resume() {
                 </ul>
               </div>
               <div>
-                <h3 className="p-6 font-medium text-base sm:text-2xl mt-[15%]">
+                <h3 className="p-6 font-medium text-2xl mt-[15%]">
                   Certificates
                 </h3>
                 <div className="p-2">
@@ -85,7 +84,7 @@ export default function Resume() {
                     href="https://www.freecodecamp.org/certification/panabana/responsive-web-design"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs sm:text-xl hover:underline">"Responsive Web Design" from freeCodeCamp.org
+                    className="sm:text-xl hover:underline">"Responsive Web Design" from freeCodeCamp.org
                   </a>
                 </div>
                 <div className="p-2">
@@ -93,18 +92,17 @@ export default function Resume() {
                     href="https://www.freecodecamp.org/certification/panabana/javascript-algorithms-and-data-structures"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs sm:text-xl hover:underline">"JavaScript Algorithms and Data structures" from freeCodeCamp.org
+                    className="sm:text-xl hover:underline">"JavaScript Algorithms and Data structures" from freeCodeCamp.org
                   </a>
                 </div>
               </div>
               <div>
-                <h3 className="p-4 mt-8 font-medium text-base sm:text-2xl">
+                <h3 className="p-4 mt-2 sm:mt-8 font-medium text-2xl">
                   Education
                 </h3>
-                <p className="text-xs sm:text-xl p-4">
+                <p className="text-xl p-4">
                   Bachelor’s degree | Information Systems at Lund University | 2020-2024    <br />
                   ECTS Grade = “B”
-
                 </p>
               </div>
             </div>
