@@ -6,7 +6,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/alexanderbengtsson/"
           target="_blank"
           rel="noopener noreferrer"
-          className="mr-1 md:mr-10 hover:underline">
+          className="mr-1 md:mr-10 hover:underline font-bold">
           LinkedIn
         </a>
         <p className="mr-1 md:mr-10"> | </p>
@@ -14,11 +14,11 @@ export default function Footer() {
           href="https://www.github.com/panabana/"
           target="_blank"
           rel="noopener noreferrer"
-          className="mr-5 md:mr-28 hover:underline">
+          className="mr-5 md:mr-28 hover:underline font-bold">
           GitHub
         </a>
         <p>
-          Updated: 2024-01-15
+          Updated: 2024-01-21
         </p>
       </nav>
       <div>
