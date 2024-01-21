@@ -24,13 +24,16 @@ export default function Contact() {
                   palexanderbengtsson@gmail.com
                 </p>
               </div>
+              <div>
+
+              </div>
             </div>
             <div>
               <h2 className="text-xl mt-5 p-4">
                 MAP
               </h2>
             </div>
-            <div className="h-[75%] p-5 sm:h-1/2 place-content-center rounded-lg flex relative">
+            <div className="h-[90%] p-5 sm:h-1/2 place-content-center rounded-lg flex relative">
               <iframe
                 width="65%"
                 height="100%"
