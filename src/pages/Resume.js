@@ -113,12 +113,14 @@ export default function Resume() {
                 <h3 className="mt-2 sm:mt-8 font-bold text-3xl">
                   Education
                 </h3>
-                <p className="text-xl mt-4">
-                  Information Systems at Lund University | 2020-2024
+                <p className="text-base mt-4">
+                  Information Systems at Lund University
+                  <br />
+                  2020-2024
                   <br />
                   Bachelor’s degree 
                   <br />
-                  ECTS Grade = “B”
+                  ECTS average grade = “B”
                 </p>
               </div>
             </div>
