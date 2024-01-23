@@ -7,21 +7,23 @@ export default function Series1Post1() {
             <div className="flex-grow text-neutral-200 bg-slate-800 py-8 sm:py-10">
                 <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
                     <div className="container px-5 mx-auto lg:px-40">
-                        <h2 className="sm:text-xl text-xs text-center font-bold mt-5 p-5">
+                        <h2 className="sm:text-xl text-xs text-center italic font-bold mt-5 p-5">
                             1. Initial Start and Frontend
                         </h2>
-                        <h3 className="sm:text-lg text-xs text-center">
-                            Original date: 2024-01-11 - Edited: 2024-01-11
+                        <h3 className="sm:text-base text-xs text-center">
+                            Original date: 2023-12-14 | Edited: 2024-01-23
                         </h3>
                         <p className="mx-auto text-xs sm:text-lg text-left p-10 w-[65%]">
                             Hi, I’m Alex B.
                             <br /><br />
-                            A quick thank you for looking through this dev blog.
+                            A quick thank you to you, the reader, for reading this dev blog.
                             <br /><br />
-                            This series will focus on the development of this
-                            personal website. What decisions I’ve chosen, what made me choose them, etc.
+                            This is the first series in a collection of recurring texts,
+                            focused on IT and software development. This first series will focus on
+                            the development of this personal website. What decisions I’ve chosen, etc.
+
                             <br /><br />
-                            This dev blog is focused at maximizing its usefulness, so all entries will try to follow these 3 points:
+                            This dev blog is focused at maximizing its usefulness to the reader, so all entries will try to follow these 3 points:
                             <br />1. Focused towards entry-level developers
                             <br />2. Objective and basic language
                             <br />3. Universal and longstanding relevance

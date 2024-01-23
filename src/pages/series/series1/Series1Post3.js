@@ -7,85 +7,42 @@ export default function Series1Post3() {
             <div className="flex-grow text-neutral-200 bg-slate-800 py-8 sm:py-10">
                 <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
                     <div className="container px-5 mx-auto lg:px-40">
-                        <h2 className="sm:text-xl text-xs text-center font-bold mt-5 p-5">
+                        <h2 className="sm:text-xl text-lg text-center italic font-bold mt-5 p-5">
                             3. To Create a More Dynamic UI
                         </h2>
-                        <h3 className="sm:text-lg text-xs text-center">
-                            Original date: 2024-01-11 - Edited: 2024-01-11
+                        <h3 className="sm:text-base text-xs text-center">
+                            Original date: 2023-12-22 | Edited: 2024-01-23
                         </h3>
-                        <p className="mx-auto text-xs sm:text-lg text-left p-10 w-[65%]">
+                        <p className="mx-auto text-base sm:text-lg text-left p-10 w-[99%] sm:w-[65%]">
                             Hi, I’m Alex B.
                             <br /><br />
-                            A quick thank you for looking through this dev blog.
+                            This is how I went about adding the first batch of content to this portfolio website.
                             <br /><br />
-                            This series will focus on the development of this
-                            personal website. What decisions I’ve chosen, what made me choose them, etc.
+                            Preliminarily, I started with putting some placeholder headers and paragraphs into
+                            the different pages. The distinct pages of content in this web app are: “Projects”, “Resume”, “Blog”,
+                            “Contact”. Four pages should suffice, as I wanted to have a minimalistic and dynamic UI.
                             <br /><br />
-                            This dev blog is focused at maximizing its usefulness, so all entries will try to follow these 3 points:
-                            Focused towards entry-level developers
-                            Objective and basic language
-                            Universal and longstanding relevance
+                            To create a more dynamic UI, I set up these goals:
+                            <br />1. Make the resolution responsive to mobile, PC and tablet
+                            <br />2. Add a light/dark UI button
+                            <br />3. Create a fitting pair of header + footer
                             <br /><br />
-                            Let’s get to it. This first entry will document the initial start of this personal website (alexanderbengtsson.com),
-                            as well as the 1st and 2nd iteration of the front-end for this website.
+                            After some googling, Tailwind CSS stuck out to me as a viable option. It seemed to be a good choice to help me fulfill these goals in a quicker and better manner, compared to other frontend tools.
+                            As per Tailwind’s documentation:
+                            “Tailwind CSS is incredibly performance focused and aims to produce the smallest CSS file possible by only generating the CSS you are actually using in your project.”
+                            Optimizing for Production - Tailwind CSS
                             <br /><br />
-                            For this entry, let us focus on answering the question: “How do you set up a React page as simply as possible?”
+                            I took most of their marketing at face value and chose Tailwind for its reputation for performance, widespread usage and easygoing development experience.
                             <br /><br />
-                            For those who do not know, the answer is easy:
-                            <br />
-                            <a
-                                href="https://react.dev/learn/start-a-new-react-project"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-sky-500 hover:underline">
-                                create-react-app
-                            </a>
+                            My current personal aspirations are focused on working with the back-end, so I would like to put as little time as possible on the front-end as I can.
                             <br /><br />
-                            My website domain was bought, 26th of April 2023, for the purpose of hosting my personal showcase website.
-                            Unfortunately, it was purchased through Google Domains, which was sold to Squarespace about 7 weeks later.
-                            Squarespace would officially announce this on the 15th of June 2023.
+                            The Tailwind documentation has a section each for “dark mode” and “responsive design” in their Core Concepts segment:
                             <br /><br />
-                            Squarespace Enters Definitive Agreement to Acquire Google Domains Assets — The Official Squarespace Newsroom
+                            To give myself a fighting chance with the UI, reading the entire Core Concepts segment should be useful.
                             <br /><br />
-                            Reed Barger has a quick and easy React guide on freeCodeCamp.org, which was initially used to just help me get
-                            a website out.
-                            <br />
-                            How to Build a Portfolio Website with React
+                            Progress report: I took a 2 week hiatus over the christmas season, and since I started drafting this text. After having skimmed through the Tailwind documentation, and read up on the CSS Box Model, I have almost finished the layout for all components. I have only the “Resume” and “Blog” pages remaining, since they will take the longest time to set up. The goal now is to finish these pages, and then push up to GitHub, so that the live version will update.
                             <br /><br />
-                            This was my first experience with React. I put out the site over the week after buying the domain, and then called it a day.
-                            Here’s a screenshot of the first iteration of the website.
-                            <br />
-                            <div className="container mx-auto w-[90%] p-8">
-                                <img
-                                    src="./screenshots/firstIterationOfPersonalSite.png"
-                                    alt="Screenshot of the first UI of this website, a one-pager" />
-                            </div>
-                            <br />
-                            My photo has been removed to maintain objectivity of this website (doesn’t really matter,
-                            it’s easy to find an actual picture of me since I link to my LinkedIn in the footer).
-                            <br /><br />
-                            This screenshot shows that the first iteration was a boring page, which mainly consisted of bullet points of my skills,
-                            taken straight from my resume.
-                            <br /><br />
-                            Of course, the original idea was to showcase my job capabilities to the public - at the time of writing, that is
-                            still the website’s main purpose. But the 1st version was so haphazard that it would fail at impressing anyone really,
-                            to put it crassly. I didn’t even bother putting up any projects (because I didn’t have any at the time,
-                            outside of school projects).
-                            <br /><br />
-                            I returned to this website towards the final weeks of December 2023, to try and carve out the appropriate amount of time to build a 2nd iteration. It is now January 2024.
-                            <br /><br />
-                            So I initially chose React because it’s the most popular frontend framework [link/source?]
-                            <br /><br />
-                            No large reason to change from React. It is popular for many entry-level jobs, so might be valuable to learn how to use more in depth.
-                            <br /><br />
-                            There are two goals for this 2nd iteration:
-                            <br />
-                            1. Break up the web site into multiple logical parts
-                            <br />
-                            2. Create a more dynamic UI
-                            <br /><br />
-                            These two goals will each be discussed in the coming entries.
-
+                            The next blog post will delve into detail how I’m setting up the GitHub repository with Netlify to make the live web app update through the repo. Implementation of a Dark Mode will be pushed forward. I’ve had to focus on optimizing the mobile version as well.
                         </p>
                     </div>
                 </div>
