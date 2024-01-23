@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import Footer from "../../Footer";
 
@@ -7,6 +8,12 @@ export default function Series1Post1() {
             <div className="flex-grow text-neutral-200 bg-slate-800 py-8 sm:py-10">
                 <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
                     <div className="container px-5 mx-auto lg:px-40">
+                        <p className="text-center font-bold text-base sm:text-xl">
+                            <Link
+                                to="/Series1"
+                                className="hover:text-white">↶
+                            </Link>
+                        </p>
                         <h2 className="sm:text-xl text-lg text-center italic font-bold mt-5 p-5">
                             1. Initial Start and Frontend
                         </h2>
@@ -16,7 +23,7 @@ export default function Series1Post1() {
                         <p className="mx-auto text-base sm:text-lg text-left p-10 w-[99%] sm:w-[65%]">
                             Hi, I’m Alex B.
                             <br /><br />
-                            A quick thank you to you, the reader, for reading this dev blog.
+                            A quick thanks to you, the reader, for taking your time to look through this dev blog.
                             <br /><br />
                             This is the first series in a collection of recurring texts,
                             focused on IT and software development. This first series will focus on
@@ -76,7 +83,7 @@ export default function Series1Post1() {
                             <br /><br />
                             I returned to this website towards the final weeks of December 2023, to try and carve out the appropriate amount of time to build a 2nd iteration. It is now January 2024.
                             <br /><br />
-                            So I initially chose React because it’s the most popular frontend framework [link/source?]
+                            So I initially chose React because it seemed to be one of the more popular front-end libraries.
                             <br /><br />
                             No large reason to change from React. It is popular for many entry-level jobs, so might be valuable to learn how to use more in depth.
                             <br /><br />

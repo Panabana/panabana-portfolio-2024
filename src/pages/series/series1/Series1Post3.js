@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import Footer from "../../Footer";
 
@@ -7,6 +8,12 @@ export default function Series1Post3() {
             <div className="flex-grow text-neutral-200 bg-slate-800 py-8 sm:py-10">
                 <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
                     <div className="container px-5 mx-auto lg:px-40">
+                        <p className="text-center font-bold text-base sm:text-xl">
+                            <Link
+                                to="/Series1"
+                                className="hover:text-white">↶
+                            </Link>
+                        </p>
                         <h2 className="sm:text-xl text-lg text-center italic font-bold mt-5 p-5">
                             3. To Create a More Dynamic UI
                         </h2>

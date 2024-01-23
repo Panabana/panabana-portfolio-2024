@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import Footer from "../../Footer";
 
@@ -7,85 +8,60 @@ export default function Series1Post4() {
             <div className="flex-grow text-neutral-200 bg-slate-800 py-8 sm:py-10">
                 <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
                     <div className="container px-5 mx-auto lg:px-40">
+                        <p className="text-center font-bold text-base sm:text-xl">
+                            <Link
+                                to="/Series1"
+                                className="hover:text-white">↶
+                            </Link>
+                        </p>
                         <h2 className="sm:text-xl text-lg text-center italic font-bold mt-5 p-5">
                             4. Live Publishing & Post Publishing
                         </h2>
                         <h3 className="sm:text-base text-xs text-center">
-                            Original date: 2024-01-23 | Edited: 2024-01-23
+                            Original date: 2024-01-23
                         </h3>
                         <p className="mx-auto text-base sm:text-lg text-left p-10 w-[99%] sm:w-[65%]">
                             Hi, I’m Alex B.
                             <br /><br />
-                            A quick thank you for looking through this dev blog.
+                            One way to deploy a live website with a Create-react-app boilerplate site is to push
+                            the files to a public repo, and then link the repo to Netlify’s free deploy service.
+                            I just happened to choose Netlify since they have a pretty good free tier.
+                            So you can basically link your domain and have it automatically update its live app
+                            by hooking it up with Netlify's GitHub integration. All you do is point your Netlify account
+                            towards one of your repos, then just push up your edits to the repo.
                             <br /><br />
-                            This series will focus on the development of this
-                            personal website. What decisions I’ve chosen, what made me choose them, etc.
-                            <br /><br />
-                            This dev blog is focused at maximizing its usefulness, so all entries will try to follow these 3 points:
-                            Focused towards entry-level developers
-                            Objective and basic language
-                            Universal and longstanding relevance
-                            <br /><br />
-                            Let’s get to it. This first entry will document the initial start of this personal website (alexanderbengtsson.com),
-                            as well as the 1st and 2nd iteration of the front-end for this website.
-                            <br /><br />
-                            For this entry, let us focus on answering the question: “How do you set up a React page as simply as possible?”
-                            <br /><br />
-                            For those who do not know, the answer is easy:
-                            <br />
                             <a
-                                href="https://react.dev/learn/start-a-new-react-project"
+                                href="https://create-react-app.dev/docs/deployment/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-sky-500 hover:underline">
-                                create-react-app
+                                Find out more about React deployment here.
                             </a>
                             <br /><br />
-                            My website domain was bought, 26th of April 2023, for the purpose of hosting my personal showcase website.
-                            Unfortunately, it was purchased through Google Domains, which was sold to Squarespace about 7 weeks later.
-                            Squarespace would officially announce this on the 15th of June 2023.
+                            To make the most use out of my deployment, I chose to bite the bullet and do all my
+                            git work through Git Bash. I believe that the more comfortable I can get with CLI’s,
+                            the better off as a developer I am.
                             <br /><br />
-                            Squarespace Enters Definitive Agreement to Acquire Google Domains Assets — The Official Squarespace Newsroom
+                            <a
+                                href="https://git-scm.com/doc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-sky-500 hover:underline">
+                                I'll link to the Git documentation here.
+                            </a>
+                            
                             <br /><br />
-                            Reed Barger has a quick and easy React guide on freeCodeCamp.org, which was initially used to just help me get
-                            a website out.
-                            <br />
-                            How to Build a Portfolio Website with React
+                            One thought with Git was that it was initially hard to learn, but once you got
+                            the hang of it, it's pretty intuitive. After many
+                            tries I got the website deployed. So now I am mostly struggling with the mobile
+                            version and other small front-end faults that I keep discovering to this day.
                             <br /><br />
-                            This was my first experience with React. I put out the site over the week after buying the domain, and then called it a day.
-                            Here’s a screenshot of the first iteration of the website.
-                            <br />
-                            <div className="container mx-auto w-[90%] p-8">
-                                <img
-                                    src="./screenshots/firstIterationOfPersonalSite.png"
-                                    alt="Screenshot of the first UI of this website, a one-pager" />
-                            </div>
-                            <br />
-                            My photo has been removed to maintain objectivity of this website (doesn’t really matter,
-                            it’s easy to find an actual picture of me since I link to my LinkedIn in the footer).
+                            After having set up the basic foundation of my website, I did a loop around and tried
+                            to “upgrade” and clean up the layout of all the four main pages.
                             <br /><br />
-                            This screenshot shows that the first iteration was a boring page, which mainly consisted of bullet points of my skills,
-                            taken straight from my resume.
-                            <br /><br />
-                            Of course, the original idea was to showcase my job capabilities to the public - at the time of writing, that is
-                            still the website’s main purpose. But the 1st version was so haphazard that it would fail at impressing anyone really,
-                            to put it crassly. I didn’t even bother putting up any projects (because I didn’t have any at the time,
-                            outside of school projects).
-                            <br /><br />
-                            I returned to this website towards the final weeks of December 2023, to try and carve out the appropriate amount of time to build a 2nd iteration. It is now January 2024.
-                            <br /><br />
-                            So I initially chose React because it’s the most popular frontend framework [link/source?]
-                            <br /><br />
-                            No large reason to change from React. It is popular for many entry-level jobs, so might be valuable to learn how to use more in depth.
-                            <br /><br />
-                            There are two goals for this 2nd iteration:
-                            <br />
-                            1. Break up the web site into multiple logical parts
-                            <br />
-                            2. Create a more dynamic UI
-                            <br /><br />
-                            These two goals will each be discussed in the coming entries.
-
+                            All in all, I am very happy that I chose React and Tailwind to build my website with.
+                            They are very intuitive and easy tools. Next up, I have a spring internship where I
+                            will be in a project to automate an excel file and connect it to a database.
                         </p>
                     </div>
                 </div>

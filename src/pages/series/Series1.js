@@ -10,7 +10,12 @@ export default function Blog() {
                     Blog Series 1
                 </h2>
                 <div className="text-center">
-                    <h3 className="p-6 font-medium text-base sm:text-2xl mt-[15%]">
+                    <h3 className="mb-6 font-bold text-base sm:text-2xl mt-[10%]">
+                        <Link
+                            to="/Blog"
+                            className="hover:text-white">←
+                        </Link>
+                        <br /><br />
                         Series 1 - The Personal Portfolio
                     </h3>
                     <div className="p-2">
