@@ -7,13 +7,13 @@ export default function Series1Post2() {
             <div className="flex-grow text-neutral-200 bg-slate-800 py-8 sm:py-10">
                 <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
                     <div className="container px-5 mx-auto lg:px-40">
-                        <h2 className="sm:text-xl text-xs text-center italic font-bold mt-5 p-5">
+                        <h2 className="sm:text-xl text-lg text-center italic font-bold mt-5 p-5">
                             2. About Subdomains or Multiple Site Pages
                         </h2>
                         <h3 className="sm:text-base text-xs text-center">
                             Original date: 2023-12-19 | Edited: 2024-01-23
                         </h3>
-                        <p className="mx-auto text-xs sm:text-lg text-left p-10 w-[65%]">
+                        <p className="mx-auto text-base sm:text-lg text-left p-10 w-[99%] sm:w-[65%]">
                             Hi, I’m Alex B.
                             <br /><br />
                             One main objective for this website is to be easy to navigate for the user. I would like to go

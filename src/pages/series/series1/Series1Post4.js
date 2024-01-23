@@ -7,13 +7,13 @@ export default function Series1Post4() {
             <div className="flex-grow text-neutral-200 bg-slate-800 py-8 sm:py-10">
                 <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
                     <div className="container px-5 mx-auto lg:px-40">
-                        <h2 className="sm:text-xl text-xs text-center italic font-bold mt-5 p-5">
+                        <h2 className="sm:text-xl text-lg text-center italic font-bold mt-5 p-5">
                             4. Live Publishing & Post Publishing
                         </h2>
                         <h3 className="sm:text-base text-xs text-center">
                             Original date: 2024-01-23 | Edited: 2024-01-23
                         </h3>
-                        <p className="mx-auto text-xs sm:text-lg text-left p-10 w-[65%]">
+                        <p className="mx-auto text-base sm:text-lg text-left p-10 w-[99%] sm:w-[65%]">
                             Hi, I’m Alex B.
                             <br /><br />
                             A quick thank you for looking through this dev blog.
