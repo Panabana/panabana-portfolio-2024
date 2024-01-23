@@ -33,7 +33,7 @@ export default function Blog() {
                     </div><div className="p-2">
                         <Link
                             to="/Series1Post4"
-                            className="text-xs sm:text-xl hover:underline">4. Publishing the Live Website
+                            className="text-xs sm:text-xl hover:underline">4. Live Publishing & Post Publishing
                         </Link>
                     </div>
                 </div>

@@ -11,30 +11,37 @@ export default function Resume() {
               <h2 className="invisible">
                 Resume
               </h2>
-              <p className="text-base mx-auto w-[85%] sm:w-[55%] p-2 md:p-8">
-                This is my resume. I hope it will show my level of discipline and aptitude for learning. I have worked every year of my life since 2014.
-                In 2020, I started my career path towards the software industry, and I have never looked back.
-              </p>
             </div>
-            <div className="grid grid-rows-4">
-              <div>
-                <h3 className="p-4 mt-8 font-medium text-2xl">
+            <div className="grid grid-flow-row auto-row-max">
+              <div className="mb-10">
+                <h3 className="text-left font-bold text-3xl mt-4 mb-4">
                   Skills
                 </h3>
-                <p className="text-left text-lg sm:text-2xl p-4">
+                <p className="text-left text-lg sm:text-2xl mt-4 mb-4">
                   ★★★: Java, JavaScript                        <br />
-                  ★★☆: React, EJB 3.0, Tailwind CSS            <br />
-                  ★☆☆: Azure, Git, TypeScript, C#, Bootstrap   <br />
-                  <br /><br />
-                  Web & Data: JS, TS, HTML5, CSS3, SQL Server
+                  ★★☆: React, EJB 3.0, Git                          <br />
+                  ★☆☆: Azure, TypeScript, C#             <br />
+                  <br />
+                  Web & Data: JS, TS, HTML5, CSS3, Tailwind, Bootstrap, SQL Server
                 </p>
               </div>
-              <div>
-                <p className="font-medium text-2xl">
+              <div className="text-left mb-6">
+                <p className="text-left font-bold text-3xl">
                   Experiences
                 </p>
-                <p className="p-6 font-medium text-base sm:text-2xl mt-6">
-                  Installation Technician | Netsecurity | 2023–2024
+                <p className="mt-4 mb-4 font-medium text-left text-base sm:text-2xl">
+                  Spring Internship | Tetra Pak
+                  <br />
+                  2024
+                </p>
+                <p>
+                  Recently started, ongoing until March 2023.
+                </p>
+                <br />
+                <p className="mt-4 mb-4 font-medium text-left text-base sm:text-2xl">
+                  Installation Technician | Netsecurity
+                  <br />
+                  2023–2024
                 </p>
                 <ul className="text-left">
                   <li>
@@ -43,43 +50,49 @@ export default function Resume() {
                   <li>
                     Output = Rack & Stack, installation and IP configuration of a 1-4RU form factor in 30 minutes.
                   </li>
+                  <br />
                   <li>
                     Outcome = Sole primary responsible technician for customers in southern Sweden
                   </li>
                   <li>
-                    Outcome = Additionally, supported colleagues in Gothenburg and Copenhagen
+                    Outcome = Received additional support role towards colleagues in Gothenburg and Copenhagen
                   </li>
+                  <br />
                   <li>
-                    Tech = Dell Storage & Compute products, IP configuration
+                    Tech utilized = Dell Storage & Compute products, IP configuration
                   </li>
                 </ul>
                 <br />
-                <p className="p-6 font-medium text-base sm:text-2xl mt-6">
-                  IT Support | Lund University | 2022–2024
+                <p className="text-left mt-4 mb-4 font-medium text-base sm:text-2xl">
+                  IT Support | Lund University
+                  <br />
+                  2022–2024
                 </p>
                 <ul className="text-left">
                   <li>
-                    Output = Team saw roughly 20 colleagues come and go. At the time of my resignation, 2nd highest amount of completed tickets across team.
+                    Output = Team saw roughly 25 colleagues come and go. 2nd highest amount of completed tickets in team, once I left.
                   </li>
                   <li>
-                    Output = 1 ticket is 1 person's self-contained IT issue pn PC/Mac. My average: 20 tickets/day.
+                    Output = 1 ticket is 1 person's self-contained IT issue on PC/Mac. I averaged 20 tickets/day.
                   </li>
+                  <br />
                   <li>
                     Outcome = Built 6 automated answers to common ticket issues.
                   </li>
                   <li>
-                    Outcome = Compiled data, which have been used for tuning the team’s open hours.
+                    Outcome = Compiled data, which have been used for optimizing the support's opening hours.
                   </li>
+                  <br />
                   <li>
-                    Tech = ServiceNow, HTML5
+                    Tech utilized = ServiceNow, HTML5
                   </li>
                 </ul>
               </div>
-              <div>
-                <h3 className="p-6 font-medium text-2xl mt-[15%]">
+              <div className="text-left mb-8">
+                <h3 className="font-bold text-3xl mt-4 mb-4">
                   Certificates
                 </h3>
-                <div className="p-2">
+                <div className="mt-2">
                   <a
                     href="https://www.freecodecamp.org/certification/panabana/responsive-web-design"
                     target="_blank"
@@ -87,7 +100,7 @@ export default function Resume() {
                     className="sm:text-xl hover:underline">"Responsive Web Design" from freeCodeCamp.org
                   </a>
                 </div>
-                <div className="p-2">
+                <div className="mt-2">
                   <a
                     href="https://www.freecodecamp.org/certification/panabana/javascript-algorithms-and-data-structures"
                     target="_blank"
@@ -96,12 +109,15 @@ export default function Resume() {
                   </a>
                 </div>
               </div>
-              <div>
-                <h3 className="p-4 mt-2 sm:mt-8 font-medium text-2xl">
+              <div className="text-left mb-8">
+                <h3 className="mt-2 sm:mt-8 font-bold text-3xl">
                   Education
                 </h3>
-                <p className="text-xl p-4">
-                  Bachelor’s degree | Information Systems at Lund University | 2020-2024    <br />
+                <p className="text-xl mt-4">
+                  Information Systems at Lund University | 2020-2024
+                  <br />
+                  Bachelor’s degree 
+                  <br />
                   ECTS Grade = “B”
                 </p>
               </div>

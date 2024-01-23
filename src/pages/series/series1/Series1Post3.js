@@ -29,7 +29,11 @@ export default function Series1Post3() {
                             <br /><br />
                             After some googling, Tailwind CSS stuck out to me as a viable option. It seemed to be a good choice to help me fulfill these goals in a quicker and better manner, compared to other frontend tools.
                             As per Tailwind’s documentation:
-                            “Tailwind CSS is incredibly performance focused and aims to produce the smallest CSS file possible by only generating the CSS you are actually using in your project.”
+                            <br /><br />
+                            <p className="italic">
+                                “Tailwind CSS is incredibly performance focused and aims to produce the smallest CSS file possible by only generating the CSS you are actually using in your project.”
+                            </p>
+                            <br />
                             Optimizing for Production - Tailwind CSS
                             <br /><br />
                             I took most of their marketing at face value and chose Tailwind for its reputation for performance, widespread usage and easygoing development experience.
