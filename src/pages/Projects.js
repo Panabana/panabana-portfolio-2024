@@ -8,14 +8,14 @@ export default function Projects() {
         <div id="projects" className="container mx-auto min-h-dvh justify-center body-font">
           <div className="container px-5 mx-auto text-left lg:px-40">
             <div>
-              <h2 className="text-xl mt-5">
+              <h2 className="text-base sm:text-xl mt-5">
                 Hi, I'm Alexander Bengtsson. Thanks for checking out this website.
               </h2>
               <a
                 href="https://www.github.com/panabana/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl text-sky-600 hover:underline">
+                className="text-base sm:text-xl text-sky-600 hover:underline">
                 GitHub: (@Panabana)
               </a>
               <br className="hidden lg:inline-block" />
@@ -25,8 +25,8 @@ export default function Projects() {
                 My projects:
               </h3>
             </div>
-            <div className="grid grid-rows-2 grid-cols-1 ">
-              <div className="container w-[60%] mb-8">
+            <div className="grid grid-flow-row auto-row-max">
+              <div className="container w-[95%] sm:w-[60%] mb-8">
                 <h4 className="text-lg sm:text-xl font-medium mt-4 italic">
                   The Inventory Management System
                 </h4>
@@ -51,13 +51,13 @@ export default function Projects() {
                   <br /><br />
                   I built these two apps together with a team of five people. We built our own internal tooling and built the apps so that data would persist between our client side and Java server.
                 </p>
-                <div className="container w-[95%] md:w-[100%]">
+                <div className="container w-[100%] md:w-[100%]">
                   <img
                     src="./screenshots/startScreenIMS.png"
                     alt="Screenshot of the Inventory Management System start screen" />
                 </div>
               </div>
-              <div className="container w-[60%] mb-0">
+              <div className="container w-[95%] sm:w-[60%] mb-8">
                 <h4 className="text-lg sm:text-xl font-medium mt-6 italic">
                   Personal Website
                 </h4>
