@@ -118,9 +118,31 @@ export default function Resume() {
                   <br />
                   2020-2024
                   <br />
-                  Bachelor’s degree 
+                  Bachelor’s degree
                   <br />
                   ECTS average grade = “B”
+                </p>
+              </div>
+              <div className="text-left mb-8">
+                <h3 className="mt-2 sm:mt-8 font-bold text-3xl">
+                  Hobbies
+                </h3>
+                <p className="text-base mt-4">
+                  Chess
+                  <br />
+                  Learning Languages
+                  <br />
+                  Reading
+                </p>
+              </div>
+              <div className="text-left mb-8">
+                <h3 className="mt-2 sm:mt-8 font-bold text-3xl">
+                  Spoken Languages
+                </h3>
+                <p className="text-base mt-4">
+                  ★★★: English, Swedish
+                  <br />
+                  ★☆☆: Italian, Danish
                 </p>
               </div>
             </div>
