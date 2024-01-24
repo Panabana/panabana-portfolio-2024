@@ -9,13 +9,13 @@ export default function Projects() {
           <div className="container px-5 mx-auto text-left lg:px-40">
             <div>
               <h2 className="text-base sm:text-xl mt-5">
-                Hi, I'm Alexander Bengtsson. Thanks for checking out this website.
+                Hi, I'm Alexander Bengtsson.
               </h2>
               <a
                 href="https://www.github.com/panabana/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base sm:text-xl text-sky-600 hover:underline">
+                className="text-base sm:text-xl font-bold text-sky-600 hover:underline">
                 GitHub: (@Panabana)
               </a>
               <br className="hidden lg:inline-block" />
@@ -40,14 +40,14 @@ export default function Projects() {
                     href="https://github.com/Panabana/sfc-inventory-management-system-web"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >The web app built with JS and JQuery (further details) </a>
+                  >The web app built with JS and JQuery</a>
                   <br />
                   <a
                     className="text-sky-600 hover:underline font-bold"
                     href="https://github.com/Panabana/sfc-inventory-management-system-app"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >The desktop app built with C# (further details)</a>
+                  >The desktop app built with C#</a>
                   <br /><br />
                   I built these two apps together with a team of five people. We built our own internal tooling and built the apps so that data would persist between our client side and Java server.
                 </p>
@@ -65,13 +65,13 @@ export default function Projects() {
                   href="https://github.com/Panabana/panabana-portfolio-2024"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sky-600 hover:underline">
+                  className="text-sky-600 font-bold hover:underline">
                   Link to GitHub repo.
                 </a>
                 <p className="text-base font-normal mt-4">
                   This website, of course.
                   <br />
-                  Built with React, Tailwind, Node.js and React Router.
+                  Built with React, Tailwind, Node.js and React Router. Dev blog series 1 covers its development.
                 </p>
               </div>
             </div>

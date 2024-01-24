@@ -18,7 +18,7 @@ export default function Footer() {
           GitHub
         </a>
         <p>
-          Updated: 2024-01-23
+          Updated: 2024-01-24
         </p>
       </nav>
       <div>
