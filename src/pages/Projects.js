@@ -59,6 +59,21 @@ export default function Projects() {
               </div>
               <div className="container w-[95%] sm:w-[60%] mb-8">
                 <h4 className="text-lg sm:text-xl font-medium mt-6 italic">
+                  Java Tic-Tac-Toe
+                </h4>
+                <a
+                  href="https://github.com/Panabana/panabana-tictactoe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sky-600 font-bold hover:underline">
+                  Link to GitHub repo.
+                </a>
+                <p className="text-base font-normal mt-4">
+                  A minimalistic Java app which runs a game of Tic-Tac-Toe.
+                </p>
+              </div>
+              <div className="container w-[95%] sm:w-[60%] mb-8">
+                <h4 className="text-lg sm:text-xl font-medium mt-6 italic">
                   Personal Website
                 </h4>
                 <a
